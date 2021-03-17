@@ -1,0 +1,15 @@
+regex used
+
+
+
+dữ liệu có 
+
+[' Túi vải Canvas Care & Share màu đen'] ['79.000đ']
+
+regex sử dụng
+
+\[(.+)\] \[(.+)\]
+nhìn dễ hiểu rồi nên không cần giải thích
+
+INSERT INTO Product (Name,Price) VALUES ($1,$2);
+
